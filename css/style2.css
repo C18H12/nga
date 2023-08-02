@@ -1,0 +1,64 @@
+body
+{   
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient(pink, lightblue);
+    height: 700px;
+    font-family:'Courier New', Courier, monospace;
+}
+.login-div {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+    margin-top: 97px;
+    margin-left: 600px;
+    width: 350px;
+    height: 300px;
+    background-color: rgb(221, 40, 40);
+    background-image: linear-gradient(yellow, red);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}   
+h2{
+    text-align: center;
+    
+}
+input{
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-bottom: 2px solid hsl(343, 88%, 46%);
+    background-color: salmon;
+    border-radius: 50px;
+  }
+  #Uname{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 40px;
+  }
+  #Pass{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 40px;
+
+
+  }
+  #log{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 40px;
+
+  }
+ span{
+    padding: 10px;
+    margin: 10px;
+ }
+  
+    
+
+

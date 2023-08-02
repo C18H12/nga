@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.topbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: salmon;
+    padding: 0;
+    margin: 0;
+    height: 10vh;
+    width: 100%;
+}
+.topbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 50px;
+}
+.topbar ul li {
+    font-family: 'Courier New', Courier, monospace;
+    list-style: none;
+    transition: .5s;
+}
+.topbar ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    transition: .5s;
+    padding: 5px;
+    font-size: 18px;
+}
+.topbar ul:hover li a {
+    transform: scale(1);
+    opacity: .2;
+    filter: blur(0.3);
+}
+.topbar ul li a:hover {
+    /* transform: scale(1.5); */
+    opacity: 10;
+    filter: blur(0);
+}
+.w3-xlarge {
+    color: black;
+}
+</style>
+<body>
+    <div class="topbar">
+      <ul>
+        <b><li><a href="#aboutus">About us</a></li></b>
+        <b><li><a href="#solutions">Solutions</a></li></b>
+        <b><li><a href="#resources">Resources</a></li></b>
+        <b><li><a href="#pricing">Pricing</a></li></b>
+        <b><li><a href="#contacts">Contacts</a></li></b>
+        <li><a href="#home2" class="w3-xlarge"><i class="fa fa-home"></i></li>
+      </ul>
+    </div>
+</body>
+</head>    
+</html>

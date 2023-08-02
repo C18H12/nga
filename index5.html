@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<style>
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.topbar {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    justify-content: center;
+    gap: px;
+    overflow: hidden;
+    background-color:hsl(0, 0%, 0%);
+    height: 80px;
+    gap: 15px;
+}
+.active {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: hsl(33, 85%, 3%);
+    padding: 13px;
+    border: none;
+    margin-top: 17px;
+    
+}
+.ledgers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: aliceblue;
+    background-color: black;
+    padding: 13px;
+    margin-top: 17px;
+    border: none;
+}
+h2 {
+    display: flex;
+    justify-content: flex-start;
+    /* flex-direction: column;
+    justify-content: flex-start; */
+    text-align: start;
+    color: aliceblue;
+    background-color: black;
+    border: none;
+    
+
+}
+.glyphicon-cloud {
+    color: aliceblue;
+    font-size: 35px;
+    margin-top: 20px;
+
+}
+    </style>
+<body>
+    <div class="topbar">
+        <i class="glyphicon glyphicon-cloud"></i>
+        <h2>formance</h2>
+        <input type="button" class="active" href="#overview" value="Overview">
+         <br><br>
+        <input type="button" class="ledgers" href="#ledgers" value="Ledgers">
+         <br><br>
+        <input type="button" class="ledgers" href="#payments" value="Payments">
+         <br><br>
+        <input type="button" class="ledgers" href="#operations" value="Operations">
+         <br><br>
+        <input type="button" class="ledgers" href="#insights" value="Insights">
+         <br><br>
+        <input type="button" class="ledgers" href="#connectors" value="Connectors">
+         <br><br>
+    </div>
+</head>
+</html>
