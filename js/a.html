@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>JS Introduction</h2>
+  Metoda 1 <h3 id="demo">JS can change the HTML content</h3>
+  <button type="button" onclick='document.getElementById("demo").innerHTML="Hello js"'>Click me!</button>
+  <p id="demo2">abc</p>
+  <button type="button" onclick='document.getElementById("demo2").innerHTML="cba"'>Click me!</button>
+  <button onclick="document.getElementById('myImage').src='bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="bulboff.gif" style="width: 160px">
+<button onclick="document.getElementById('myImage').src='bulboff.gif'">Turn off the light</button>
+<h2 id="demo3">DEF</h2>
+<button type="button" onclick="document.getElementById('demo3').style.display='none'">Click me!</button>
+<p id="demo4"></p>
+<script>
+    document.getElementById('demo4').innerHTML="My first JavaScript";
+</script>
+ Metoda 2 <script>
+    function myFunction() {
+       document.getElementById('demo5').innerHTML="Paragraph changed";
+    }
+</script>
+<p id="demo5">A paragraph</p>
+<button type="button" onclick="myFunction()">Try it</button>
+</body>
+</html>
