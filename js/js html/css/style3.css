@@ -1,0 +1,48 @@
+.img {
+    width: 120px;
+    
+}
+.todo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    margin-top: 200px;
+}
+.buton {
+    margin-top: 5px;
+    margin-left: 8px;
+    border-radius: 10px;
+    box-shadow: blue;
+    text-shadow: violet;
+    background-color: violet;
+}
+.text {
+    margin-top: 8px;
+    border-color: salmon;
+
+}
+.todo2 {
+    display: flex;
+}
+.todo1 {
+    display: flex;
+}
+.h2 {
+    margin-top: 50px;
+    margin-left: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: palevioletred
+}
+.label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body {
+    background-image:linear-gradient(pink,white) ;
+    height: 1000px
+    
+}
+.taskText {
+    margin-top: 50px;
+}

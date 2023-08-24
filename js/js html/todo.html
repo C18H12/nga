@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>To-Do List</title>
+  <link rel="stylesheet" type="text/css" href="css/style3.css">
+</head>
+<body>
+    <div class="todo">
+        <div class="todo1">
+            <img class="img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/756881/laptop.svg">
+            <h2 class="h2">To-Do List</h2>
+        </div>
+            <label class="label">~Today I need to~</label>
+        <div class="todo2">
+            <input class="text" type="text">
+            <button class="buton"><span>Submit</span></button>
+        </div>
+        <div class="output"></div>
+    </div>
+
+    <script>
+        const submitButton = document.querySelector('.buton');
+        const inputText = document.querySelector('.text');
+        const outputDiv = document.querySelector('.output');
+
+        submitButton.addEventListener('click', function() {
+            const taskText = inputText.value;
+            if (taskText.trim() !== '') {
+                const taskElement = document.createElement('div');
+                taskElement.textContent = taskText;
+                outputDiv.appendChild(taskElement);
+
+                taskElement.addEventListener('click', function() {
+                    outputDiv.removeChild(taskElement);
+                });
+
+                inputText.value = ''; 
+            }
+        });
+    </script>
+</body>
+</html>

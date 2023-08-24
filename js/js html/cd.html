@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <p id="demo">Please visit Microsoft</p>
+    <button onclick="myFunction7()">Try it</button>
+    <p id="demo2">Hello</p>
+    <p id="demo3">123</p>
+    <script>
+        let text="ABCDF CNDH DJJ";
+        let part=text.substr(7,10);
+        console.log(part);
+
+        function myFunction (){
+            let text=document.getElementById("demo").innerHTML;
+            console.log(text.replace("Microsoft","jrj"));
+        }
+        function myFunction2 () {
+            let text2=document.getElementById("demo2").innerHTML;
+            console.log(text2.toLowerCase());
+        }
+        function myFunction3 () {
+            let text3="Hello";
+            let text4="World";
+            let text5=text3.concat(" ",text4);
+            console.log(text5)
+        }
+        var num=" "
+        function myFunction4(inputName) {
+              console.log(inputName)
+        }
+        myFunction4("Maria")
+        function myFunction5() {
+            let text7="1234";
+            console.log(text7.padStart(10,"foo"));
+        }
+        function myFunction6() {
+            let text8="Hello World";
+            console.log(text8.charCodeAt(1));
+        }
+        function myFunction7() {
+            let text9="the code underfinded code";
+            console.log(text9.lastIndexOf('code'))
+        }
+        
+    </script>
+</body>
+</html>
